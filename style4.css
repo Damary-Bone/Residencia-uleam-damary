@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    position: relative;
+    background-color: #f2f2f2;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff0000a0;
+    z-index: 99;
+  }
+  
+  .logo {
+    font-size: 2em;
+    color: white;
+    user-select: none;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-left: 40px;
+  }
+  
+  .navigation .bntLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+  }
+  
+  /* Estilos de la sección de presentación */
+  .presentacion {
+    background-color: #9f9f9f9b;
+    padding: 20px;
+  }
+  
+  .presentacion h2 {
+    color: #000000;
+  }
+  
+  .presentacion a {
+    background-color: #ff0000a0;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Estilos de la sección de habitaciones */
+  .habitaciones {
+    padding: 20px;
+  }
+  
+  .habitaciones ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .habitaciones h2 {
+    color: #000000;
+  }
+  .habitaciones h3 {
+    color: #000000;
+  }
+  .habitaciones span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .img img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

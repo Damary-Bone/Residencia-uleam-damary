@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(residencia-U.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.logo{
+    font-size: 1.5em;
+    color: white;
+    user-select: none;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navigation .bntLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+header {
+    background-color: #ff0000a0;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  }
+  
+.h1, h2 {
+    color: #000000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.inform {
+    background-color: #ffffffac;
+    padding: 20px;
+    border: 2px solid #000000;
+  }
+.inform h2 {
+    text-align: center;
+    color: #000000;
+  }
+
+  .inform p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+.inform .icon-close {
+    cursor: pointer;
+    position: absolute;
+  }
+  .contactos {
+    background-color: #ffffff9f;
+    padding: 20px;
+  }
+  
+  .contactos h3 {
+    color: #333;
+  }
+  
+  .contactos p {
+    margin-bottom: 10px;
+  }
+
+ footer {
+    background-color: #4f4c4c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
